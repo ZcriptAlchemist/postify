@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 4rem;
+  text-decoration: none;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+.logo:hover {
+  color: rgb(104, 93, 93);
+}
+
+.home {
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-animation {
+  height: 50vh;
+}
+
+.login-container,
+.signup-container {
+  height: 70vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.login-container > h2,
+.signup-container > h2 {
+  font-size: 3rem;
+}
+
+.login-form,
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form > label,
+.signup-form > label {
+  color: rgb(19, 19, 19);
+  margin-bottom: 4px;
+}
+
+.login-form > input,
+.signup-form > input {
+  margin-bottom: 2rem;
+  height: 3rem;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.login-form > button,
+.signup-form > button,
+.login-btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  border: 0px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  background: rgb(0, 119, 212);
+}
+
+.login-form > button:hover,
+.signup-form > button:hover {
+  background: rgb(2, 96, 168);
+}
+
+.form-link {
+  color: black;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.tool-bar {
+  background-color: #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  width: 25vw;
+  height: 100vh;
+}
+
+.tool-bar-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-bar-form > * {
+  margin: 1rem 1rem;
+}
+
+.tool-bar-form > input {
+  margin-bottom: 2rem;
+  height: 3rem;
+  /* width: 100%; */
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.tool-bar-form > button {
+  height: 3rem;
+  border: 0px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  background: rgb(0, 119, 212);
+}
+
+.tool-bar-form > button:hover {
+  background: rgb(2, 96, 168);
+}
